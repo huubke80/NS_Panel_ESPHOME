@@ -1095,19 +1095,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       default: []
       selector:
         entity:
-          domain:
-            - light
-            - switch
-            - cover
-            - input_boolean
-            - automation
-            - button
-            - input_button
-            - scene
-            - person
-            - script
-            - binary_sensor
-            - fan
     entity25_name:
       name: Name "Button 25" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1127,18 +1114,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       selector:
         entity:
           domain:
-            - light
-            - switch
-            - cover
-            - input_boolean
-            - automation
-            - button
-            - input_button
-            - scene
-            - person
-            - script
-            - binary_sensor
-            - fan
     entity26_name:
       name: Name "Button 26" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1157,19 +1132,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       default: []
       selector:
         entity:
-          domain:
-            - light
-            - switch
-            - cover
-            - input_boolean
-            - automation
-            - button
-            - input_button
-            - scene
-            - person
-            - script
-            - binary_sensor
-            - fan
     entity27_name:
       name: Name "Button 27" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1188,19 +1150,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       default: []
       selector:
         entity:
-          domain:
-            - light
-            - switch
-            - cover
-            - input_boolean
-            - automation
-            - button
-            - input_button
-            - scene
-            - person
-            - script
-            - binary_sensor
-            - fan
     entity28_name:
       name: Name "Button 28" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1219,19 +1168,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       default: []
       selector:
         entity:
-          domain:
-            - light
-            - switch
-            - cover
-            - input_boolean
-            - automation
-            - button
-            - input_button
-            - scene
-            - person
-            - script
-            - binary_sensor
-            - fan
     entity29_name:
       name: Name "Button 29" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1250,19 +1186,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       default: []
       selector:
         entity:
-          domain:
-            - light
-            - switch
-            - cover
-            - input_boolean
-            - automation
-            - button
-            - input_button
-            - scene
-            - person
-            - script
-            - binary_sensor
-            - fan
     entity30_name:
       name: Name "Button 30" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1281,19 +1204,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       default: []
       selector:
         entity:
-          domain:
-            - light
-            - switch
-            - cover
-            - input_boolean
-            - automation
-            - button
-            - input_button
-            - scene
-            - person
-            - script
-            - binary_sensor
-            - fan
     entity31_name:
       name: Name "Button 31" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1312,19 +1222,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       default: []
       selector:
         entity:
-          domain:
-            - light
-            - switch
-            - cover
-            - input_boolean
-            - automation
-            - button
-            - input_button
-            - scene
-            - person
-            - script
-            - binary_sensor
-            - fan
     entity32_name:
       name: Name "Button 32" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1969,7 +1866,7 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       name: Entity 32 (Optional)
       description: '* *Displayed on **"Entity Page 4"***'
       default: []
-      selector:
+      selector:f
         entity:      
     entities_entity32_name:
       name: Name "Entity 32" (Optional)
@@ -3506,24 +3403,24 @@ action:
                 - entity: "{{ entity26 }}"
                   button_label: "{{ entity26_name }}"
                   button: buttonpage04.button02
-                - entity: "{{ entity27 }}"
-                  button_label: "{{ entity27_name }}"
-                  button: buttonpage04.button03
-                - entity: "{{ entity28 }}"
-                  button_label: "{{ entity28_name }}"
-                  button: buttonpage04.button04
-                - entity: "{{ entity29 }}"
-                  button_label: "{{ entity29_name }}"
-                  button: buttonpage04.button05
-                - entity: "{{ entity30 }}"
-                  button_label: "{{ entity30_name }}"
-                  button: buttonpage04.button06
-                - entity: "{{ entity31 }}"
-                  button_label: "{{ entity31_name }}"
-                  button: buttonpage04.button07
-                - entity: "{{ entity32 }}"
-                  button_label: "{{ entity32_name }}"
-                  button: buttonpage04.button08
+               # - entity: "{{ entity27 }}"
+               #   button_label: "{{ entity27_name }}"
+               #   button: buttonpage04.button03
+               # - entity: "{{ entity28 }}"
+               #   button_label: "{{ entity28_name }}"
+               #   button: buttonpage04.button04
+               # - entity: "{{ entity29 }}"
+               #   button_label: "{{ entity29_name }}"
+               #   button: buttonpage04.button05
+               # - entity: "{{ entity30 }}"
+               #   button_label: "{{ entity30_name }}"
+               #   button: buttonpage04.button06
+               # - entity: "{{ entity31 }}"
+               #   button_label: "{{ entity31_name }}"
+               #   button: buttonpage04.button07
+               # - entity: "{{ entity32 }}"
+               #   button_label: "{{ entity32_name }}"
+               #  button: buttonpage04.button08
               sequence:
                 - if:
                   - condition: template
