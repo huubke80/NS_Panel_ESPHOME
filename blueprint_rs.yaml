@@ -1866,7 +1866,7 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       name: Entity 32 (Optional)
       description: '* *Displayed on **"Entity Page 4"***'
       default: []
-      selector:f
+      selector:
         entity:      
     entities_entity32_name:
       name: Name "Entity 32" (Optional)
