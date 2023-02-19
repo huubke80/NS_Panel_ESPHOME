@@ -1848,7 +1848,7 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       description: '* *Displayed on **"Entity Page 4"***'
       default: []
       selector:
-        entity:      
+        entity:
     entities_entity31_name:
       name: Name "Entity 31" (Optional)
       description: '* *Entity label - replaces the **"friendly_name"** of the entity*'
@@ -1867,7 +1867,7 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       description: '* *Displayed on **"Entity Page 4"***'
       default: []
       selector:
-        entity:      
+        entity:   
     entities_entity32_name:
       name: Name "Entity 32" (Optional)
       description: '* *Entity label - replaces the **"friendly_name"** of the entity*'
