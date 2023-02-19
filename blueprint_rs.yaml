@@ -1093,8 +1093,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       name: Button 25 (Optional)
       description: '* *Displayed on **"Button Page 4"** - (ONLY light | switch | cover | input_boolean | automation | button | input_button | scene | person | script | binary_sensor | fan)*'
       default: []
-      selector:
-        entity:
     entity25_name:
       name: Name "Button 25" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1111,8 +1109,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       name: Button 26 (Optional)
       description: '* *Displayed on **"Button Page 4"** - (ONLY light | switch | cover | input_boolean | automation | button | input_button | scene | person | script | binary_sensor | fan)*'
       default: []
-      selector:
-        entity:
     entity26_name:
       name: Name "Button 26" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1129,8 +1125,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       name: Button 27 (Optional)
       description: '* *Displayed on **"Button Page 4"** - (ONLY light | switch | cover | input_boolean | automation | button | input_button | scene | person | script | binary_sensor | fan)*'
       default: []
-      selector:
-        entity:
     entity27_name:
       name: Name "Button 27" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1147,8 +1141,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       name: Button 28 (Optional)
       description: '* *Displayed on **"Button Page 4"** - (ONLY light | switch | cover | input_boolean | automation | button | input_button | scene | person | script | binary_sensor | fan)*'
       default: []
-      selector:
-        entity:
     entity28_name:
       name: Name "Button 28" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1165,8 +1157,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       name: Button 29 (Optional)
       description: '* *Displayed on **"Button Page 4"** - (ONLY light | switch | cover | input_boolean | automation | button | input_button | scene | person | script | binary_sensor | fan)*'
       default: []
-      selector:
-        entity:
     entity29_name:
       name: Name "Button 29" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1183,8 +1173,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       name: Button 30 (Optional)
       description: '* *Displayed on **"Button Page 4"** - (ONLY light | switch | cover | input_boolean | automation | button | input_button | scene | person | script | binary_sensor | fan)*'
       default: []
-      selector:
-        entity:
     entity30_name:
       name: Name "Button 30" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1201,8 +1189,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       name: Button 31 (Optional)
       description: '* *Displayed on **"Button Page 4"** - (ONLY light | switch | cover | input_boolean | automation | button | input_button | scene | person | script | binary_sensor | fan)*'
       default: []
-      selector:
-        entity:
     entity31_name:
       name: Name "Button 31" (Optional)
       description: '* *Button label - 10 characters are supported*'
@@ -1219,8 +1205,6 @@ The goal was to create a version that allows everyone to use the NSpanel fully l
       name: Button 32 (Optional)
       description: '* *Displayed on **"Button Page 4"** - (ONLY light | switch | cover | input_boolean | automation | button | input_button | scene | person | script | binary_sensor | fan)*'
       default: []
-      selector:
-        entity:
     entity32_name:
       name: Name "Button 32" (Optional)
       description: '* *Button label - 10 characters are supported*'
